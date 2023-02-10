@@ -1,8 +1,8 @@
 # Routing Lookup project
 
-This project deals with Routing Table LookuP using Perfect Hash oriented solutions.
+This project deals with Routing Table Lookup using Perfect Hash oriented solutions.
 
-Three folders are used to provide source code and experiment results. Each folder can be used as an independant project.
+All folders are used to provide source code and experiment results. Each folder is used as an independant experiment.
 
 1. PHF_benchmark
 
@@ -32,4 +32,4 @@ RTL implementations on Xilinx FPGA.
 # Citation
 The current work is for IEEE TRANSACTIONS ON AEROSPACE AND ELECTRONIC SYSTEMS.
 Any questions, please contact keran_zhang@outlook.com
-# Routing_lookup
+

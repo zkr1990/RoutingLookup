@@ -12,7 +12,7 @@ cmake ..
 make
 ```
 
-## Used for single input file, commands in the router_mega folder
+## Commands for single input file in the router_mega folder
 Specify the number of router(n = 1/2/3) first. 1 is for RHF1, 2 is for RHF2, 3 is for RHF1-a in the original paper.
 
 To report construction time:s
@@ -30,7 +30,7 @@ Test generated function:
 
 The program use input.txt as test case, and check whether the generated RHF can map correctly.
 
-## Used for folder with multiple input files, commands in the RHF folder
+## Commands for multiple input files in the RHF folder
 Generate all function files in routerFuncData/ folder. By default, n is set to 1.(change line 26 to modify router number)
 
 `sh generate.sh`

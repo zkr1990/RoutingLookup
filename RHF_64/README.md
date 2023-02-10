@@ -11,7 +11,7 @@ cmake ..
 make
 ```
 
-## Used for single input file, commands in the router_mega folder
+## Commands for single input file in the router_mega folder
 Specify the number of router(n = 1) first. 
 Only CTimer1 is working, which provides the RHF1 strategy for 64-bit input.
 CTimer2 and CTimer3 are not working for now.
@@ -31,7 +31,7 @@ Test generated function:
 
 The program use input.txt as test case, and check whether the generated RHF can map correctly.
 
-## Used for folder with multiple input files, commands in the RHF folder
+## Commands for multiple input files in the RHF folder
 Generate all function files in routerFuncData/ folder. By default, n is set to 1.
 
 `sh generate.sh`
